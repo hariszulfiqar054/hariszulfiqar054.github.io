@@ -256,9 +256,11 @@ const About = () => (
               graduated from COMSATS University with a BS in Computer Science.
             </p>
             <p>
-              I specialize in diving deep into complex problems and emerging
-              with solutions that actually work. Currently building cool stuff
-              at <span className="font-bold text-black">Calo Inc</span>.
+              With 5+ years across fintech and food-tech, I ship features that
+              move retention, conversion, and revenue. Currently a{" "}
+              <span className="font-bold text-black">Senior Software Engineer</span>{" "}
+              at <span className="font-bold text-black">Calo Inc</span>, building
+              AI-powered meal products end to end.
             </p>
           </div>
 
@@ -318,15 +320,17 @@ const Experience = () => {
   const jobs = [
     {
       company: "Calo Inc",
-      role: "Full Stack Engineer",
+      role: "Senior Software Engineer",
       period: "Dec 2022 - Present",
-      location: "Bahrain",
+      location: "Seef, Bahrain (Remote)",
       color: "bg-lime-400",
       achievements: [
-        "Boosted revenue by 20% through add-ons & subscription revamp",
-        "Slashed release candidate time by 60% with E2E testing",
-        "Built menu generation algorithm with 90% accuracy",
-        "Saved CX team 10+ hours weekly",
+        "Built AI-powered meal creation engine generating personalized meals on the fly",
+        "Shipped ML recommendation system (Lambda + Python): 70% match accuracy, +25% retention across 30K+ subscribers",
+        "Rewrote subscription & checkout flows in React Native + GraphQL: -15% drop-off, +20% revenue",
+        "Priority-queue menu algorithm: -40% Lambda compute, ~$8K/mo saved, 90% macro accuracy",
+        "Built Detox E2E pipeline in CI/CD, cutting release cycle time by 60%",
+        "Mentored junior engineers & drove platform architecture decisions",
       ],
     },
     {
@@ -336,9 +340,10 @@ const Experience = () => {
       location: "Lahore, PK",
       color: "bg-cyan-400",
       achievements: [
-        "Made React Native app 40% faster",
-        "Increased conversions by 20% with BNPL feature",
-        "Led design system across 5 products",
+        "Led full rebuild of consumer app: 50% faster load via code-splitting",
+        "Integrated BNPL flow: +20% conversions, +$500K monthly revenue",
+        "Built internal React component library used across 5 products by 10+ engineers",
+        "Drove API design & backend performance as system scaled",
       ],
     },
     {
@@ -348,8 +353,9 @@ const Experience = () => {
       location: "Lahore, PK",
       color: "bg-orange-400",
       achievements: [
-        "Led team of 4 React Native Engineers",
-        "Set up CI/CD for backend & mobile apps",
+        "Led team of 4 to ship two production React Native apps (grocery delivery + school management)",
+        "Served 15K+ active users with WebSocket-based notifications & live order tracking",
+        "Built scalable Node.js + WebSocket backends for real-time updates",
         "Employee of the Year 🏆",
       ],
     },
@@ -477,8 +483,13 @@ const Skills = () => {
     },
     {
       title: "Tools",
-      skills: ["Git", "Jest", "Detox", "Socket.IO", "RabbitMQ"],
+      skills: ["Git", "Jest", "Detox", "Maestro", "Socket.IO", "RabbitMQ"],
       icon: "🔧",
+    },
+    {
+      title: "AI & LLMs",
+      skills: ["Claude", "OpenAI", "LLM Integration", "AI-Assisted Dev", "Python"],
+      icon: "🤖",
     },
   ];
 
